@@ -337,6 +337,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 880e43a65c719194eaa44d55fb8bbe7d, type: 2}
   - {fileID: 11400000, guid: 880e43a65c719194eaa44d55fb8bbe7d, type: 2}
   - {fileID: 11400000, guid: ce5c26fd058fca54ca9fb9373f30e58c, type: 2}
+  - {fileID: 11400000, guid: b19d1eac28ad3f1408c02bf7ffcc4270, type: 2}
   Inventory: {fileID: 1357354364}
 --- !u!4 &1330509154
 Transform:

@@ -69,6 +69,12 @@ public class InventorySlot : MonoBehaviour
         if (this.Item != null)
         {
             this.Item.Use();
+
+            //Implement decreasing of items here if needed
+            if (this.Item is ConsumableItem)
+            {
+                Inventory.DecreaseAmount(this.SlotNr);
+            }
         }
     }
 }

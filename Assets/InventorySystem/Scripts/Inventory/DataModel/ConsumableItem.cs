@@ -16,6 +16,7 @@ public class ConsumableItem : InventoryItem
          *  if(HealAmount > 0)
            {
                FindObjectOfType<Player>().Heal(HealAmount);
+
            }
            if(StaminaHealAmount > 0)
            {
