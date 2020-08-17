@@ -2,6 +2,11 @@
 using TMPro;
 using UnityEngine.UI;
 
+/// <summary>
+/// InventorySlot class
+/// Author: Yannick Laubscher
+/// Date: 26.08.2020
+/// </summary>
 public class InventorySlot : MonoBehaviour
 {
     [Header("Object References")]

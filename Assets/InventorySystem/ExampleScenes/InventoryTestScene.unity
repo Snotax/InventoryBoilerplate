@@ -382,6 +382,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5a37b97cba90fdf41a2ada5bb2f8f317, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Name: Player Inventory
   Size: 20
 --- !u!4 &1357354365
 Transform:
@@ -408,10 +409,6 @@ PrefabInstance:
       propertyPath: Inventory
       value: 
       objectReference: {fileID: 1357354364}
-    - target: {fileID: 1077364391006170717, guid: 87db25383696c6f41a83cbdc84410b9b, type: 3}
-      propertyPath: TestItem
-      value: 
-      objectReference: {fileID: 11400000, guid: 880e43a65c719194eaa44d55fb8bbe7d, type: 2}
     - target: {fileID: 1077364391617763235, guid: 87db25383696c6f41a83cbdc84410b9b, type: 3}
       propertyPath: m_Name
       value: UIInventory

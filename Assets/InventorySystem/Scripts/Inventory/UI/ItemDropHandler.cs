@@ -3,6 +3,11 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using System.Linq;
 
+/// <summary>
+/// ItemDropHandler class
+/// Author: Yannick Laubscher
+/// Date: 16.08.2020
+/// </summary>
 public class ItemDropHandler : MonoBehaviour, IDropHandler
 {
     UIInventory inv;

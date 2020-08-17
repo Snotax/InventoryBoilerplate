@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
+/// <summary>
+/// ItemDragHandler class
+/// Author: Yannick Laubscher
+/// Date: 16.08.2020
+/// </summary>
 public class ItemDragHandler : MonoBehaviour, IDragHandler, IEndDragHandler, IBeginDragHandler
 {
     private InventorySlot invSlot;

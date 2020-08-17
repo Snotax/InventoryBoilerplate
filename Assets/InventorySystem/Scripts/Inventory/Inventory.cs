@@ -4,10 +4,18 @@ using UnityEngine;
 using System.Linq;
 using System;
 
+/// <summary>
+/// Inventory class
+/// Author: Yannick Laubscher
+/// Date: 16.08.2020
+/// </summary>
 public class Inventory : MonoBehaviour
 {
     [Header("Inventory Properties")]
-    public int Size = 10;
+    [Tooltip("Name of this inventory")]
+    public string Name = "";
+    [Tooltip("What is the max size of this inventory")]
+    public int Size = 20;
 
     public event EventHandler OnInventoryChanged;
 

@@ -2,6 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// UIInventory class
+/// Author: Yannick Laubscher
+/// Date: 16.08.2020
+/// </summary>
 public class UIInventory : MonoBehaviour
 {
 
